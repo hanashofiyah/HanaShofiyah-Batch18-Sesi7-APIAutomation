@@ -1,0 +1,19 @@
+{
+  "name": "hanashofiyah-batch18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "mocha sesi7/login.js",
+    "test": "mocha sesi7 --reporter mochawesome",
+    "report": "start mochawesome-report/mochawesome.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "chai": "^6.3.0",
+    "mocha": "^12.0.3"
+  }
+}
