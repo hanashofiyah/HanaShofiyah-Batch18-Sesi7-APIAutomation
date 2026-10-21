@@ -67,7 +67,7 @@ describe("Test Login", function () {
     
   });
 
-  it("Add User Successful", async function () {
+  it("Successfully add a new user", async function () {
     const response = await fetch(
       "https://belajar-bareng.onrender.com/api/add-user",
       {
@@ -98,7 +98,7 @@ describe("Test Login", function () {
 
   });
 
-it("Add User Failed", async function () {
+it("Error when adding user with special character", async function () {
     const response = await fetch(
       "https://belajar-bareng.onrender.com/api/add-user",
       {
